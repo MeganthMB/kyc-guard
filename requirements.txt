@@ -1,0 +1,9 @@
+streamlit>=1.50
+opencv-python-headless>=4.8
+numpy
+pillow
+pandas
+qrcode
+cryptography
+networkx
+pyvis==0.3.2
