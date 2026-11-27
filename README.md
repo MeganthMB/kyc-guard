@@ -12,6 +12,14 @@
 
 macOS/Linux: `bash run.sh`
 
+## Share it as a public link (free)
+
+| Option | How | Notes |
+|---|---|---|
+| **Render** (hosted) | render.com → sign in with GitHub → **New → Blueprint** → pick this repo → Apply. `render.yaml` sets everything up. | Free, no credit card. Sleeps after 15 min idle (about 1 min to wake). 512 MB RAM: fine for a demo. |
+| **Cloudflare Quick Tunnel** (from your laptop) | Run `run.bat` once, then double-click **`run_public.bat`**. Share the `https://….trycloudflare.com` link it prints. | Free, no account. Link works only while the window stays open; a new link each time. |
+| **Streamlit Community Cloud** | share.streamlit.io → Create app → this repo, `app.py`. | Free. |
+
 Manual setup:
 ```bash
 python -m venv .venv
