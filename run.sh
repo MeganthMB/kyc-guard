@@ -8,4 +8,5 @@ if [ ! -d .venv ]; then
 else
   source .venv/bin/activate
 fi
+(sleep 6; python -m webbrowser http://localhost:8501 >/dev/null 2>&1) &
 streamlit run app.py

@@ -4,7 +4,7 @@ primaryColor = "#17365d"
 font = "sans serif"
 
 [server]
-headless = false
+headless = true
 maxUploadSize = 25
 
 [browser]

@@ -11,4 +11,5 @@ if not exist .venv (
 ) else (
     call .venv\Scripts\activate.bat
 )
+start "" cmd /c "timeout /t 6 /nobreak >nul & start http://localhost:8501"
 streamlit run app.py
